@@ -1,0 +1,45 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/adView"
+        tools:context="com.apps.devamit.jago_final.TariffFragment">
+
+        <TextView
+            android:gravity="center"
+            android:text="Connection failed\nTap to try again"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:textColor="@android:color/black"
+            android:id="@+id/retryTariff"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <com.apps.devamit.jago_final.TouchImageViewGeneral
+            android:id="@+id/tariffImage"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/tariffProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        android:layout_marginBottom="5dp"
+        ads:adUnitId="@string/adunit"/>
+</RelativeLayout>

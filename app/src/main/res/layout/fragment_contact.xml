@@ -1,0 +1,141 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/adView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context="com.apps.devamit.jago_final.ContactFragment">
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:text="Contact No."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:padding="5dp"
+                android:text="+918958222280" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:padding="5dp"
+                android:text="+919758228833" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="+919917544555"
+                android:autoLink="phone"
+                android:linksClickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:text="Website"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="5dp"
+                android:text="www.jagoharidwar.com" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:text="E-mail"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:linksClickable="true"
+                android:padding="5dp"
+                android:text="jagoharidwar@gmail.com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:linksClickable="true"
+                android:padding="5dp"
+                android:text="info@jagoharidwar.com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:text="Head Office" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:padding="5dp"
+                android:text="107, Vivek Vihar Colony, Ranipur More, Haridwar - 249407"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:text="Branch Office" />
+
+            <TextView
+                android:id="@+id/branch_office"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@android:style/Widget.Button"
+                android:padding="5dp"
+                android:text="785, Model Colony, Opp. Prem Nagar Ashram, Haridwar - 249407"/>
+
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        android:layout_marginBottom="5dp"
+        ads:adUnitId="@string/adunit"/>
+</RelativeLayout>

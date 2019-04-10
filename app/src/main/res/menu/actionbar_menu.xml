@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/refresh"
+        android:title="Refresh"
+        android:icon="@mipmap/ic_action_refresh"
+        android:orderInCategory="5"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/shareApp"
+        android:title="Share"
+        android:orderInCategory="4"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+
+    <item android:id="@+id/rateUs"
+        android:title="Rate Us"
+        android:orderInCategory="6"
+        app:showAsAction="never" />
+</menu>

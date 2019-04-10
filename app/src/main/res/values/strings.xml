@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Jago Haridwar</string>
+    <string name="appid">INSERT YOUR</string>
+    <string name="adunit">GOOGLE ADS CREDENTIALS</string>
+    <string name="testad">HERE</string>
+
+    <string name="drawer_opened">Drawer Opened</string>
+    <string name="drawer_closed">Drawer Closed</string>
+
+    <string-array name="cardItems">
+        <item>Classifieds</item>
+        <item>Online Booking</item>
+        <item>Tariff</item>
+        <item>Our Clients</item>
+    </string-array>
+
+    <string-array name="folderNames">
+        <item>Current_</item>
+        <item>Previous_1</item>
+        <item>Previous_2</item>
+        <item>Previous_3</item>
+        <item>Previous_4</item>
+    </string-array>
+
+    <string name="about_us">
+        Jago Haridwar Classified is a leading advertising agency based in Haridwar. Since its establishment in December 2011, the company started a local classified newspaper named Jago Haridwar Classified and with the great effort and dedicated workflow by Mr. Anubhav, proprietor of Jago Haridwar by the end of the Year 2017 Jago Haridwar circulates more than 24000 copies every week all around the Punch Puri and Haridwar Area.
+\n\nClassified News Paper Advertising is a kind of advertisement promotion which provides a quick and short look of your business in its unique style. Booking for advertisement in Jago Haridwar starts every Saturday and closes every Thursday and the newspaper is published on Saturday. We have all the categories to describe you and your business. We have a well qualified technical team and a supporting customer care to help you find your destination. Our aim is to make our customers and their business happy, satisfying, and growing. We at Jago Haridwar Classified are a growing advertising agency of Haridwar, having the head office near Ranipur More, Haridwar. Jago Haridwar classified is the only classified which provides best services for their valuable customers in budget.
+    </string>
+
+    <string name="adPolicy">
+        \u2022 Booking for corresponding Saturday would close on Thursday only.\n\n
+        \u2022 Booking once confirmed will not be cancelled and amount will not be refunded in any condition.\n\n
+        \u2022 Jago Haridwar Classified holds the right to cancel / amend any advertisement as per the advertisement Policy.
+    </string>
+
+    <string name="faq1">
+        \u2022 What is the last date for advertisement booking?
+    </string>
+
+    <string name="faq2">
+        \u2022 What happens if I book my advertisement on Thursday and I want to have it placed on the corresponding Saturday?
+    </string>
+
+    <string name="faq3">
+        \u2022 What if I do not want my advertisement in the next issue?
+    </string>
+
+    <string name="faq4">
+        \u2022 Is Haridwar Classified circulated in cities other than Haridwar as well?
+    </string>
+
+    <string name="faq5">
+        \u2022 Will I get a receipt for the payment made for advertisement booking?
+    </string>
+
+    <string name="ans1">
+        \tAdvertisement booking for Corresponding Sunday closes on Wednesday.
+    </string>
+
+    <string name="ans2">
+        \tThough all efforts will be made at our end to have the advertisement placed as desired, all bookings taken on Thursday are on “best effort / against cancellation” basis. In case the advertisement is not placed on the corresponding Saturday, the same would be carried forward to the next issue.
+    </string>
+
+    <string name="ans3">
+        \tYou can send us an email to initiate a refund, along with your banking details, the complete amount will be refunded to your account within 6-8 days and online only.
+    </string>
+
+    <string name="ans4">
+        \tCurrently Haridwar Classified is ONLY circulated in Haridwar City. Total no of copies are 24000 for a edition.
+    </string>
+
+    <string name="ans5">
+        \tAll receipts are available at our booking office and can be collected in person, if you want a scanned copy to be mailed to you, then by sending a mail to info@jagoharidwar.com you can request for the same.
+    </string>
+
+    <string name="disclaimer">
+        Jago Haridwar Classified is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date.\n\n
+        Neither Jago Haridwar Classified nor anyone else involved in creating, producing or delivering Jago Haridwar Classified or the materials contained therein, assumes any liability or responsibility for the accuracy, completeness, or usefulness of any information provided in Jago Haridwar Classified, nor shall they be liable for any direct, indirect, incidental, special, consequential or punitive damages arising out of the use of Jago Haridwar Classified or its website. Neither the editors of Jago Haridwar Classified, nor any other party involved in the preparation of material contained in Jago Haridwar Classified represent or warrant that the information contained herein is in every respect accurate or complete, and they are not responsible for any errors or omissions or for the results obtained from the use of such material.\n\n
+        Jago Haridwar Classified’s website may contain links to web sites operated by other parties. Such links do not imply Jago Haridwar Classified’s endorsement of material on any other site and Jago Haridwar Classified disclaims all liability with regard to your access of such linked web sites.\n\n
+    </string>
+
+</resources>

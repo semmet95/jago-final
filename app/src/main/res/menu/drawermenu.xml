@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+        <item android:title="Home"
+            android:id="@+id/nav_item_home"
+            android:icon="@mipmap/ic_home"/>
+
+        <item android:title="Contact Us"
+            android:id="@+id/nav_item_contactus"
+            android:icon="@mipmap/ic_contact" />
+
+        <item android:title="About Us"
+            android:id="@+id/nav_item_aboutus"
+            android:icon="@mipmap/ic_aboutus" />
+    </group>
+
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="single">
+        <item android:title="Advertisement Policy"
+            android:id="@+id/nav_item_advertisement"
+            android:icon="@mipmap/ic_adpolicy"/>
+
+        <item android:title="Privacy Policy"
+            android:id="@+id/nav_item_privacy"
+            android:icon="@mipmap/ic_privacypolicy" />
+
+        <item android:title="FAQ"
+            android:id="@+id/nav_item_faq"
+            android:icon="@mipmap/ic_faq" />
+
+        <item android:title="Disclaimer"
+            android:id="@+id/nav_item_disclaimer"
+            android:icon="@mipmap/ic_disclaimer" />
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+        <item android:title="Rate Us"
+            android:visible="false"
+            android:id="@+id/nav_item_rate"
+            android:icon="@mipmap/ic_rate" />
+    </group>
+</menu>
